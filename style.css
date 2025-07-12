@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Navbar Styles */
+  .navbar-dark .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Main Form Section Styles */
+  .main-form-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Results Section Styles */
+  .results-section {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+  }
+  
+  .result-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Modal Styles */
+  .modal-header,
+  .modal-footer {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  /* Speech Recognition Button Styles */
+  #startSpeechRecognition {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #startSpeechRecognition:hover {
+    background-color: #0069d9;
+  }
